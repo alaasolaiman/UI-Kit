@@ -1,0 +1,91 @@
+body {
+    padding: 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #505F98;
+
+}
+
+nav>ul>a {
+    text-decoration: none;
+}
+
+nav>button {
+    background-color: #111B47;
+    width: 160PX;
+    height: 26PX;
+    border-radius: 2PX;
+    border: NONE;
+    color: white;
+
+}
+
+#heroSection_one {
+    width: 50%;
+}
+
+#heroImage {
+    position: absolute;
+    top: -40px;
+    right: -450px;
+    z-index: -1;
+}
+
+#heroSection {
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+#heroSection_one>h1 {
+    font-size: 50px;
+    color: #091133;
+}
+
+#heroSection_one>p {
+    color: #505F98;
+    font-size: 18px;
+}
+
+#buttonsSection {
+    display: flex;
+    gap: 30px;
+}
+
+#landing-section-two {
+    display: flex;
+    height: 740px;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+#iconBoxes {
+    display: flex;
+    margin-top: 80px;
+}
+
+#section-two-header>h1 {
+    color: var(--secondary-color);
+    font-size: 36px;
+}
+
+#section-two-header p {
+    color: var(--tertiary-color);
+}
